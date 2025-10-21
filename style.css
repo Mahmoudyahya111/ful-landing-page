@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #155ca2;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0%;
+    margin-top: 0%;
+    background-color: #04074b;
+    color: #F5F5F5;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+
+@media (max-width: 768px){
+   .sec-box{ flex-direction: column;   /* stack vertically */
+    align-items: center;
+  }
+}
+.sec-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    width: auto;
+
+}
+.section-name-of-product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+}
+
+.section-product-name{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 3.125em;
+    color: #F5F5F5;
+    
+}
+
+
+
+.first-button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.375em;
+    background-color: gray;
+    cursor: pointer;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+
+.first-button:hover {
+  background-color: orange;
+}
+
+
+.Disclaimer-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+        align-items: center;
+
+}
+.Disclaimer-sec h5{
+     font-weight: 300;
+     color: gray;
+}
+strong{
+    color: rgb(255, 0, 0);
+}
+@media (max-width: 768px){
+   .Disclaimer-sec{ flex-direction: column;   /* stack vertically */
+    align-items: center;
+    width: 90%;
+    max-width: 25em;
+  }
+}
+
+.comments-live{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.125em 1.25em;
+    background-color: #155ca2;
+  
+}
+.live-com{
+    color: #F5F5F5;
+    margin-bottom: 1.875em;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.comments-live ul{
+    display: flex;
+    gap: 3.125em;
+    justify-content: center;
+    flex-wrap: wrap;
+     padding: 0;
+  margin: 0;
+  
+   
+}
+.comments-live ul li{
+    display: flex;
+    list-style: none;
+    width: 15.625em;
+    background-color: antiquewhite;;
+    padding: 0.938em;
+    margin: 0.938em;
+    gap: 0.938em;
+    border-bottom-left-radius: 1.563em;
+    border-top-right-radius: 1.563em;
+    flex-direction: column;
+    font-size:0.9rem;
+    box-shadow: 0 0.25em 0.625em rgba(0,0,0,0.15);
+}
+.comments-live ul h3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Image Pic*/
+.com-pic{
+    width: 100%;
+  height: 8.75em;
+  object-fit: cover;
+  border-bottom-left-radius: 1.563em;
+    border-top-right-radius: 1.563em;
+  margin-bottom: 0.625em;
+}
+
+
+.comments-live button{
+    display: flex;
+    font: size 0.938em;;
+    border-radius: 1.25em;
+    background-color: gray;
+      cursor: pointer;
+}
+.comments-live button:hover{
+    background-color: orange;
+}
+
+.Benef-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #04074b;
+    width: auto;
+    padding: 0%;
+    margin: 0%;
+}
+
+.Benef-sec h2{
+     color: #F5F5F5;
+    margin-bottom: 1.875em;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.Benef-card{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    max-width: 60em;
+    margin: 0 auto;
+
+}
+.Benef-card div{
+    display: flex;
+    flex: 1 1 15em;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+   padding: 0.625em;
+   margin: 0px;
+   border-bottom-left-radius: 1.563em;
+   border-top-right-radius: 1.563em;   
+   max-width: 20em;
+   min-width: 15em;
+   height: auto;
+   
+justify-content: flex-start;
+
+
+}
+.Benef-card img{
+     object-fit: cover;
+  
+}
+
+.Benef-sec button{
+     display: flex;
+    font-size:0.938em;
+    border-radius: 1.25em;
+      cursor: pointer;
+      margin: 0.938em;
+
+}
+.Benef-sec button:hover{
+    background-color: orange;
+}
+@media (max-width: 768px) {
+  .Benef-card {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;
+  }
+  
+  .Benef-card div {
+    width: 90%;              /* almost full width */
+    max-width: 25em;
+  }
+}
+
+.sec-price{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+        margin-top: 1em;
+
+    justify-content: center;
+    
+}
+
+
+.price-box{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  background-color: antiquewhite;
+      align-items: center;
+ border-bottom-left-radius: 1.563em;
+    border-top-right-radius: 1.563em;
+}
+.sec-price img{
+       width: 100%;
+  height: 8.75em;
+  object-fit: contain;
+  border-bottom-left-radius: 1.563em;
+    border-top-right-radius: 1.563em;
+  margin-bottom: 0.625em;
+}
+
+.sec-price h2{
+    font-weight: 600;
+}
+
+.sec-price small{
+    font-weight: 300;
+
+}
+
+.price-box button{
+     display: flex;
+    font: size 0.938em;;
+    border-radius: 1.25em;
+    background-color: gray;
+      cursor: pointer;
+      margin-bottom: 2em;
+}
+.price-box button:hover{
+    background-color: orange;
+}
+
+@media (max-width: 768px){
+    .sec-price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-box{
+        width: 90%;              /* almost full width */
+    max-width: 25em;
+    }
+}
+
+
+.news-letter{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    background-color: #04074b;
+    color: white;
+    justify-content: space-around;
+    margin: 0;
+    margin-top: 2em;
+    padding: 2em;
+
+    align-items: center;
+}
+
+
+
+.news-letter p{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.news-letter button{
+   
+    border-radius: 1.25em;
+    cursor: pointer;
+
+}
+.news-letter button:hover{
+    background-color: orange;
+}
+
+@media(max-width:768px){
+    .news-letter{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;              /* almost full width */
+    max-width: 25em;
+    }
+
+}
