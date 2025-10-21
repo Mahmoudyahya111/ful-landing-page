@@ -95,8 +95,7 @@ strong{
 @media (max-width: 768px){
    .Disclaimer-sec{ flex-direction: column;   /* stack vertically */
     align-items: center;
-    width: 90%;
-    max-width: 25em;
+    
   }
 }
 
@@ -310,14 +309,14 @@ justify-content: flex-start;
 .news-letter{
     display: flex;
     flex-direction: row;
-    width: inherit;
+    
     background-color: #04074b;
     color: white;
     justify-content: space-around;
     margin: 0;
     margin-top: 2em;
     padding: 2em;
-
+    
     align-items: center;
 }
 
