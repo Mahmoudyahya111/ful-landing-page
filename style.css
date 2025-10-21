@@ -341,8 +341,8 @@ justify-content: flex-start;
     .news-letter{
         flex-direction: column;
         align-items: center;
-        width: 90%;              /* almost full width */
-    max-width: 25em;
+        
     }
+
 
 }
